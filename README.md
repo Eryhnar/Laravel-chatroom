@@ -59,11 +59,11 @@ Technologies used:
 
 ## Local installation
 1. Clone the repository
-2. ` $ php artisan install `
+2. ` $ composer install ` might have to run ` $ composer update` instead
 3. Set the .env file and adjust the params for the database.
 4. Connect to the database.
 5. ``` $ php artisan migrate ```
-6. ``` $ php artisan db:seed "here put the name of the seed" ``` 
+6. ``` $ php artisan db:seed ``` 
 7. ``` $ php artisan serve ``` 
 
 ## Credentials
